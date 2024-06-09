@@ -1,0 +1,29 @@
+text.usetex: True
+text.latex.preamble: \usepackage{amsfonts}\usepackage{amssymb}\usepackage{amsmath}\usepackage{siunitx}
+
+font.family:'serif' 
+font.size: 8
+ytick.labelsize: 8
+xtick.labelsize: 8
+
+# For poster:
+# font.size: 50 
+# ytick.labelsize: 36
+# xtick.labelsize: 36
+# lines.linewidth : 10
+
+
+axes.facecolor : "EAEAF2" # Seaborn
+axes.grid: True # Seaborn
+grid.color: 'white' # Seaborn
+axes.spines.left: False #Seaborn
+axes.spines.right: False #Seaborn
+axes.spines.top: False #Seaborn
+axes.spines.bottom: False #Seaborn
+
+xtick.color: 'w' #Seaborn
+ytick.color: 'w' #Seaborn
+xtick.labelcolor: 'black' #Seaborn
+ytick.labelcolor: 'black' #Seaborn
+legend.framealpha: 0 # Seaborn
+axes.axisbelow: True
